@@ -324,9 +324,7 @@ export const Calendar: React.FC<CalendarProps> = ({
   }, []);
 
   function navigation(direction: number) {
-    console.log(dateStart);
     setDateStart(addDay(dateStart, getDaysCount(viewMode) * direction));
-    console.log(dateStart);
   }
 
   const handleIntervalChange = (event: ChangeEvent<HTMLSelectElement>) => {
