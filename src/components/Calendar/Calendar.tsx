@@ -375,7 +375,7 @@ export const Calendar: React.FC<CalendarProps> = ({
       const rect = calendarRef.current.getBoundingClientRect();
       setTimeout(() => setMenuData({
         x: e.clientX - rect.left + 36,
-        y: e.clientY - rect.top + 60,
+        y: e.clientY - rect.top + 36,
         text1: lesson.student,
         text2: lesson.duration.toString() + ' min',
         text3: `${lessonStartHours}:${lessonStartMinutes}`

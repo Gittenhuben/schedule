@@ -30,8 +30,12 @@ export const defaultSchedule: ScheduleElement[] = [
     "endTime": "2025-09-01T04:59:59+00:00"
   },
   {
-    "startTime": "2025-09-01T11:00:00+00:00",
-    "endTime": "2025-09-01T19:29:59+00:00"
+    "startTime": "2025-09-16T08:00:00+00:00",
+    "endTime": "2025-09-16T19:29:59+00:00"
+  },
+  {
+    "startTime": "2025-09-19T06:00:00+00:00",
+    "endTime": "2025-09-19T20:29:59+00:00"
   }
 ]
 
@@ -44,4 +48,18 @@ export const defaultLessons: LessonElement[] = [
     "endTime": "2025-08-30T14:29:59+00:00",
     "student": "Alex"
   },
+  {
+    "id": 53,
+    "duration": 60,
+    "startTime": "2025-09-15T08:30:00+00:00",
+    "endTime": "2025-09-15T09:29:59+00:00",
+    "student": "Alex"
+  },
+  {
+    "id": 54,
+    "duration": 90,
+    "startTime": "2025-09-18T10:30:00+00:00",
+    "endTime": "2025-09-18T11:59:59+00:00",
+    "student": "John"
+  }
 ]
