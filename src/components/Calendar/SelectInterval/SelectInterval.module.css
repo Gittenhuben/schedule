@@ -1,0 +1,12 @@
+.nav-subcontainer {
+  min-width: fit-content;
+  margin-inline: 5px;
+}
+
+.nav-span {
+  margin-inline: 5px;
+}
+
+.select {
+  margin-block: 5px;
+}
